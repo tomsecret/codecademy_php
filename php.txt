@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+        <p>
+          <?php
+            echo "I'am learning OHO!";
+          ?>
+        </p>   
+	</body>
+</html>
+
+<?php
+   echo "Hello," . " " . "world" . "!";
+?>
+
+<?php
+  echo 5 * 7;
+?>
+
+<?php
+	        $MyName = "JC";
+	      ?>
+	      
+
+<?php 
+            $myName = "Jialun";
+            $myAge = 45; 
+            ?>
+            
+<?php 
+            $myName = "Jialun";
+            $myAge = 45; 
+            echo $myName;
+            echo $myAge
+            ?>
+            
+<?php
+  $age = 17;
+
+  if( $age > 16 ) {
+    echo "You can drive!";
+  }
+?>
+
+<?php
+  $name = "Edgar";
+
+  if ($name == "Simon") {
+    print "I know you!";
+  }
+  else {
+    print "Who are you?";
+  }
+?>
+
+<?php
+        if (4 > 5) {
+            echo "The condition is true";
+        }
+        else {
+            echo "The condition is false";
+        }
+        // Write your if/elseif/else statement here!
+        
+      ?>
+
+$myNum = 2;
+
+switch ($myNum) {
+    case 1:
+        echo "1";
+        break;
+    case 2:
+        echo "2";
+        break;
+    case 3:
+        echo "3";
+        break;
+    default:
+        echo "None of the above";
+}
+
