@@ -136,5 +136,69 @@ assign that thing temporarily to the variable $item
 
 
 /while loop
+<?php
+	$loopCount = 0;
+while ($loopCount<4){
+   echo "<p>Iteration number: {$loopCount}</p>";
+   $loopCount ++;
+}
+
+while ($loopCount<4):
+   echo "<p>Iteration number: {$loopCount}</p>";
+   $loopCount ++;
+endwhile; 
+
+/see if you can understand
+
+<?php
+	$flipCount = 0;
+	do {
+		$flip = rand(0,1);
+		$flipCount ++;
+		if ($flip){
+			echo "<div class=\"coin\">H</div>";
+		}
+		else {
+			echo "<div class=\"coin\">T</div>";
+		}
+	} while ($flip);
+	$verb = "were";
+	$last = "flips";
+	if ($flipCount == 1) {
+		$verb = "was";
+		$last = "flip";
+	}
+	echo "<p>There {$verb} {$flipCount} {$last}!</p>";
+	?>
+	
+	
+
+<?php
+$i = 0;
+do {
+    echo $i;
+} while ($i > 0);
+?>
+/ while returns false so loop stops
+
+//functions
+
+<?php
+  // get the length of a string and
+  // print it to the screen
+  $length = strlen("david");
+  print $length;
+?>
+
+strlen()
+substr($myname, 3, 0)
+strtoupper()
+strtolower()
+strpos("emily", "e");   // 0
+
+if (strpos("david","h") === false) {
+  print "Sorry, no 'h' in 'david'";
+}
+
 
     
